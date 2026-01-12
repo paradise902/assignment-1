@@ -1,3 +1,72 @@
-body{
-    background-color: blue;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* sharedstyles  */
+
+.font-inter {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.colorgreen {
+  color: #30b868;
+}
+
+.btn {
+}
+
+/* mainstyles */
+
+.site-header {
+  /* border: 1px solid red; */
+  background-color: #ffffff;
+}
+
+.nav-container {
+  /* border: 1px solid red; */
+  max-width: 1600px;
+  max-height: 92px;
+  margin: auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-container .logo {
+  padding-left: 120px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.nav-container .navbar {
+  padding: 34px;
+}
+
+.nav-container .navbar ul {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+}
+
+.nav-container .navbar a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #000;
+  line-height: 152%;
+  font-weight: 500;
+}
+
+.nav-container .btn {
+  max-width: 164px;
+  margin: 24px 120px 24px 0;
+  padding: 12px 16px;
+  background-color: #30b868;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
 }
