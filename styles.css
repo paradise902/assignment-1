@@ -123,7 +123,7 @@
   /* border: 5px solid red; */
   margin: o auto;
   line-height: 84px;
-  max-width: 1360px;
+  /* max-width: 1360px; */
 }
 
 #hero-section .highlight {
@@ -216,9 +216,83 @@
 
 /* points-section-css */
 
-#points .points-container {
-  border: 3px solid red;
-  margin: auto 0;
+#points {
+  border: 2px solid red;
+  max-width: 1600px;
+  /* margin-left: 120px; */
 }
 
+#points .points-header {
+  margin: 0 auto;
+  /* width: 1360px; */
+  text-align: center;
+  padding-top: 50px;
+}
 
+#points .points-header h2 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #001931;
+}
+
+#points .points-header p {
+  font-size: 16px;
+  color: #627382;
+  line-height: 20px;
+}
+
+/* card-section-css */
+.cards {
+  max-width: 1360px;
+  margin: 48px auto 120px; /* center horizontally */
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cards .single-card {
+  flex: 1;               
+  max-width: 322px;      
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 32px 24px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.single-card .icon {
+  width: 60px;
+  height: 60px;
+  background-color: #ff5b5b;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.single-card .icon img {
+  width: 28px;
+  height: 28px;
+}
+
+.single-card h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.single-card p {
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0;
+  color: #627382;
+}
