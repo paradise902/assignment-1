@@ -34,12 +34,12 @@
 #site-header {
   border: 1px solid red;
   background-color: #ffffff;
-  width: 2195px;
+  width: 1600px;
 }
 
 #site-header .nav-container {
   /* border: 1px solid red; */
-  max-width: 2195px;
+  max-width: 1600px;
   max-height: 92px;
   margin: auto 0;
   display: flex;
@@ -112,7 +112,7 @@
 
 #hero-section .hero-content {
   /* border: 2px solid red; */
-  max-width: 2195px;
+  max-width: 1600px;
   max-height: 674px;
   margin: 118px 120px 120px 177px;
   /* padding: 51px 295px 295px 76px; */
@@ -220,7 +220,7 @@
 
 #points {
   /* border: 2px solid red; */
-  max-width: 2195px;
+  max-width: 1600px;
   /* margin-left: 120px; */
 }
 
@@ -297,4 +297,73 @@
   line-height: 20px;
   margin: 0;
   color: #627382;
+}
+
+#brain {
+  max-width: 1600px;
+  display: flex;
+  text-align: left;
+  /* border: 2px solid black; */
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 120px;
+}
+
+#brain .img-div {
+  width: 600px;
+  height: 600px;
+  margin-left: 120px;
+}
+.text-div {
+  display: flex;
+  flex-direction: column;
+}
+.text-div h4 {
+  font-size: 16px;
+  line-height: 20px;
+  /* border:  2px solid red; */
+  margin-bottom: 18px;
+  color: #30b868;
+}
+
+.text-div h1 {
+  font-size: 48px;
+  /* line-height: 20px; */
+  /* border:  2px solid red; */
+  margin-bottom: 18px;
+  /* color:#30b868 ; */
+  margin-bottom: 16px;
+}
+
+.text-div .div-1 p {
+  margin-top: 18px;
+  font-size: 16px;
+  line-height: 20px;
+  /* border: 2px solid red; */
+  margin-bottom: 40px;
+}
+
+.text-div .div-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.div-2 .feature {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.feature img {
+  width: 24px;
+  height: 24px;
+  margin-top: 2px;
+}
+
+.feature p {
+  margin: 0;
+  font-size: 18px;
+  line-height: 26px;
+  color: #001931;
 }
