@@ -29,7 +29,7 @@
 
 /* mainstyles */
 
-/* navsectioncss */
+/* nav-section-css */
 
 #site-header {
   /* border: 1px solid red; */
@@ -73,10 +73,10 @@
 
 .header-button {
   /* border: 5px solid red; */
-  /* margin: 24px 1316px 120px 24px; */
+  margin-right: 120px;
 }
 
-/* hersectioncss */
+/* hero-section-css */
 
 #hero-section {
   /* border: 30px solid brown; */
@@ -94,7 +94,7 @@
 #hero-section .hero-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(18, 38, 55, 0.78);
+  background: rgba(18, 38, 55, 0.5);
 }
 
 #hero-section .hero-content {
@@ -178,14 +178,7 @@
   /* border: 5px solid blueviolet; */
   display: flex;
   justify-content: center;
-  align-items: center;
-  gap: 16px;
-  margin-top: 32px;
-}
-
-.hero-buttons {
-  display: flex;
-  justify-content: center;
+  text-align: center;
   align-items: center;
   gap: 16px;
   margin-top: 32px;
@@ -195,18 +188,22 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 16px;
   max-height: 52px;
   font-size: 16px;
   font-weight: 600;
   border-radius: 4px;
   cursor: pointer;
-  /* padding: 12px 16px; */
+  padding: 12px 16px;
 }
 
 .hero-buttons .buttonhero1 {
   max-width: 251px;
   height: 52px;
+  gap: 10px;
+}
+
+.buttonhero1 .arrow {
+  padding-top: 5px;
 }
 
 .hero-buttons .buttonhero2 {
@@ -215,5 +212,13 @@
   background-color: transparent;
   color: #ffffff;
   height: 52px;
-  
 }
+
+/* points-section-css */
+
+#points .points-container {
+  border: 3px solid red;
+  margin: auto 0;
+}
+
+
