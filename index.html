@@ -5,32 +5,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- GOOGLEFONTS -->
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- FONTAWESOME -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
-        <header class="site-header">
-            <div class="nav-container">
-                <!-- logo -->
-                 <div class="logo">
-                    <img src="./assets/logo-navbar.png" alt="">
-                 </div>
+    <!-- HEADER -->
 
-                 <!-- navvbar -->
-                 <nav class="navbar font-inter">
-                    <ul>
-                    <li><a href="">Features</a></li>
-                    <li><a href="">How it Works</a></li>
-                    <li><a href="">Why It'S Different</a></li>
-                  </ul>
-                 </nav>
+    <!-- NAVSECTION -->
 
-                 <!-- button1 -->
-                  <div class="header-button">
-                    <button class="btn" type="button">Get Early Access</button>
-                  </div>
-            </div>
-        </header>
+    <header id="site-header">
+      <div class="nav-container">
+        <!-- LOGO -->
+        <div class="logo">
+          <img src="./assets/logo-navbar.png" alt="" />
+        </div>
+
+        <!-- NAV BAR -->
+        <nav class="navbar font-inter">
+          <ul>
+            <li><a href="">Features</a></li>
+            <li><a href="">How it Works</a></li>
+            <li><a href="">Why It'S Different</a></li>
+          </ul>
+        </nav>
+
+        <!-- BUTTON 1 -->
+        <div class="header-button">
+          <button class="btn" type="button">Get Early Access</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="hero-section">
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content">
+        <div class="status-badge">
+          <span class="status-dot"></span>
+          <span class="hero-badge font-inter"> Early Access Now Open</span>
+        </div>
+
+        <h1 class="font-inter">
+          Structured Thinking,<br />
+          <span class="highlight">Not Just Note-Taking</span>
+        </h1>
+
+        <p class="font-inter">
+          A private space to store notes, links, and learning summaries —
+          designed to help you think clearly, connect ideas, and turn learning
+          into long-term knowledge.
+        </p>
+
+        <div class="hero-buttons font-inter">
+          <button class="buttonhero1 btn">
+            Start Building Your Vault
+            <img src="./assets/ArrowRight.png" alt="" />
+          </button>
+          <button class="buttonhero2">
+            <i class="fa-solid fa-play"></i>
+            See How It Works
+          </button>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
