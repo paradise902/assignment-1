@@ -81,7 +81,7 @@
 
 #hero-section {
   /* border: 30px solid brown; */
-  width: 2190px;
+  width: 2195px;
 
   position: relative;
   height: 674px;
@@ -111,7 +111,7 @@
 
 #hero-section .hero-content {
   /* border: 2px solid red; */
-  max-width: 1600px;
+  max-width: 2195px;
   max-height: 674px;
   margin: 118px 120px 120px 177px;
   /* padding: 51px 295px 295px 76px; */
@@ -220,7 +220,7 @@
 
 #points {
   /* border: 2px solid red; */
-  max-width: 2196px;
+  max-width: 2195px;
   /* margin-left: 120px; */
 }
 
@@ -301,20 +301,23 @@
 }
 
 #brain {
-  max-width: 2196px;
+  max-width: 2195px;
+  height: 900px;
   display: flex;
   text-align: left;
-  /* border: 2px solid black; */
-  gap: 60px;
+  border: 2px solid black;
+  gap: 10px;
   justify-content: center;
   align-items: center;
-  margin-left: 120px;
+  /* margin-left: 120px; */
 }
 
 #brain .img-div {
-  width: 600px;
-  height: 600px;
-  margin-left: 120px;
+  width: 800px;
+  height: 800px;
+  margin-left: 180px;
+  margin-top: 120px;
+  /* border: 3px solid red; */
 }
 .text-div {
   display: flex;
@@ -424,15 +427,17 @@
   margin: 0 auto;
   width: 2195px;
   height: 370px;
-  border: 10px solid green;
+  /* border: 10px solid green; */
   background-color: #001931;
+  padding-top: 120px;
 }
 
 #foot .footer-container {
   max-width: 1865px;
   /* border: 7px solid antiquewhite; */
-  margin: 120px 120px 164px;
+  /* margin-top: 120px ; */
   max-height: 78px;
+  margin-left: 120px;
 }
 
 .footer-container .foot-nav {
@@ -484,7 +489,7 @@
   width: 100%;
   height: 2px;
   background-color: rgba(255, 255, 255, 0.2); /* subtle line */
-  margin: 40px 0;
+  margin: 60px 0;
 }
 
 #foot .copyright {
